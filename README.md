@@ -74,13 +74,14 @@ Please note that the `--model` option now includes additional choices such as "o
 
 The `--dataset` option contains two options:
 - `gensynth-coco` tells the script to compute the bias metrics on the unique COCO train 2017 image IDs corresponding to the images in the `--gensynth_data_dir`.
-- `gensynth` tells the script to compute the bias metrics over all the images in `--gensynth_data_dir`.
+- `gensynth` tells the script to compute the bias metrics over all the edited images in `--gensynth_data_dir`.
 
 ## License
 This project is licensed under the [MIT License](). Please see the `LICENSE` file for more information.
 
 ## Acknowledgements
 We wish to acknowledge the support and contributions of everyone who made this project possible.
+
 Miguel Farinha acknowledges the support of Fundação para a Ciência e Tecnologia (FCT), through the Ph.D. grant 2022.12484.BD.
 
 ## Citation
