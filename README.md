@@ -11,4 +11,4 @@ Authors: [Brandon Smith](https://brandonsmith.co.uk/),
 
 Corresponding author: Brandon Smith, <brandonsmithpmpuk@gmail.com>
 
-![Main Figure](figures/gensynth_pipeline.pdf)
+![Main Figure](figures/gensynth_pipeline.jpg)
