@@ -14,13 +14,13 @@ The authors of this project include:
 - [Aleksandar Shtedritski](https://github.com/suny-sht)
 - [Max Bain](https://maxbain.com)
 
-For any inquiries or further information, please contact our corresponding authors, Brandon Smith, at <brandonsmithpmpuk@gmail.com>, or Miguel Farinha, at <miguelffarinha@gmail.com>.
+For any inquiries or further information, please contact our corresponding authors, Brandon Smith, <brandonsmithpmpuk@gmail.com>, or Miguel Farinha, <miguelffarinha@gmail.com>.
 
 ## Paper
 Details of our paper can be found in the [link here]().
 
 ### measure_bias.py
-`measure_bias.py` operates on the coco_val2017 image dataset to measure the bias metrics, Bias@K and MaxSkew@K. 
+`measure_bias.py` operates on the COCO val 2017 image dataset to measure the bias metrics, Bias@K and MaxSkew@K. 
 
 #### Usage
 The script can be used by running the following command:
@@ -51,7 +51,7 @@ coco
 The script will output bias measurements to the console.
 
 ### gensynth_measure_bias.py
-`gensynth_measure_bias.py` is a script that measures the bias metrics, Bias@K and MaxSkew@K, over stable diffusion edit images using the coco_train2017 image dataset.
+`gensynth_measure_bias.py` is a script that measures the bias metrics, Bias@K and MaxSkew@K, over the stable diffusion edit images generated from the COCO train 2017 image dataset or the original COCO train 2017 images corresponding to the unique IDs used to generate the edited images.
 
 #### Usage
 To use the script, run the following command:
@@ -68,10 +68,13 @@ The available options are:
 - `--gensynth_data_dir`: Specifies the directory for GenSynth data. This should include the `gensynth.json` file and edited image subdirectories. It is a required argument.
 - `--coco_data_dir`: Specifies the directory for COCO data. It is a required argument.
 
-The directory structure for `--coco_data_dir` should be the same ad for data_dir above.
+The directory structure for `--coco_data_dir` should be the same as for data_dir above.
 
 Please note that the `--model` option now includes additional choices such as "open-clip", and the `--dataset`, `--gensynth_data_dir`, and `--coco_data_dir` options have been added to the available options.
 
+The `--dataset` option contains two options:
+- `gensynth-coco` tells the script to compute the bias metrics on the unique COCO train 2017 image IDs corresponding to the images in the `--gensynth_data_dir`.
+- `gensynth` tells the script to compute the bias metrics over all the images in `--gensynth_data_dir`.
 
 ## License
 This project is licensed under the [MIT License](). Please see the `LICENSE` file for more information.
