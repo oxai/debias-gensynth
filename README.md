@@ -76,13 +76,24 @@ The `--dataset` option contains two options:
 - `gensynth-coco` tells the script to compute the bias metrics on the unique COCO train 2017 image IDs corresponding to the images in the `--gensynth_data_dir`.
 - `gensynth` tells the script to compute the bias metrics over all the edited images in `--gensynth_data_dir`.
 
+## Data
+
+1. You can download the GynSynth dataset described in our paper from [this link](https://drive.google.com/file/d/1TttAtgOTn2g_06UqfCUnYP7QTZgCzFnr/view?usp=sharing). 
+
+2. After downloading the dataset, you need to extract it. You can do
+
+    ```bash
+    unzip data_gensynth.zip
+    ```
+
+    This will extract all the files into a new `data_gensynth` directory in your current location.
 ## License
 This project is licensed under the [MIT License](). Please see the `LICENSE` file for more information.
 
 ## Acknowledgements
 We wish to acknowledge the support and contributions of everyone who made this project possible.
 
-Miguel Farinha acknowledges the support of Fundação para a Ciência e Tecnologia (FCT), through the Ph.D. grant 2022.12484.BD.
+Miguel Farinha acknowledges the support of Fundação para a Ciência e Tecnologia (FCT), through the Ph.D. grant 2022.12484.BD. Aleksandar Shtedritski acknowledges the support of EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines & Systems [EP/S024050/1]. Hannah Rose Kirk acknowledge the support of the Economic and Social Research Council Grant for Digital Social Science [ES/P000649/1]
 
 For computing resources, the authors are grateful for support from Google Cloud and the CURe Programme under Google Brain Research, as well as an AWS Responsible AI Grant.
 
