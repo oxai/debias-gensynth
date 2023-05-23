@@ -95,6 +95,8 @@ We wish to acknowledge the support and contributions of everyone who made this p
 
 Miguel Farinha acknowledges the support of Fundação para a Ciência e Tecnologia (FCT), through the Ph.D. grant 2022.12484.BD. Aleksandar Shtedritski acknowledges the support of EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines & Systems [EP/S024050/1]. Hannah Rose Kirk acknowledge the support of the Economic and Social Research Council Grant for Digital Social Science [ES/P000649/1]
 
+This work has been supported by the Oxford Artificial Intelligence student society, the EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines & Systems [EP/S024050/1] (A.S.), and the Economic and Social Research Council Grant for Digital Social Science [ES/P000649/1] (H.R.K.).
+
 For computing resources, the authors are grateful for support from Google Cloud and the CURe Programme under Google Brain Research, as well as an AWS Responsible AI Grant.
 
 ## Citation
