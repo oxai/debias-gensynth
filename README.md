@@ -84,5 +84,7 @@ We wish to acknowledge the support and contributions of everyone who made this p
 
 Miguel Farinha acknowledges the support of Fundação para a Ciência e Tecnologia (FCT), through the Ph.D. grant 2022.12484.BD.
 
+For computing resources, the authors are grateful for support from Google Cloud and the CURe Programme under Google Brain Research, as well as an AWS Responsible AI Grant.
+
 ## Citation
 We are in the process of submitting the paper to arXiv and will update when done.
