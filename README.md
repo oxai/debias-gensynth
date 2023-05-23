@@ -19,6 +19,21 @@ For any inquiries or further information, please contact our corresponding autho
 ## Paper
 Details of our paper can be found in the [link here]().
 
+### Requirements
+
+Several packages are required to run these scripts. They can be installed with pip via the following commands:
+
+```bash
+$ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+$ pip install ftfy regex tqdm Pillow
+$ pip install git+https://github.com/openai/CLIP.git
+$ pip install git+https://github.com/oxai/debias-vision-lang
+$ pip install transformers
+$ pip install scikit-learn
+$ pip install pandas
+$ pip install open_clip_torch
+```
+
 ### measure_bias.py
 `measure_bias.py` operates on the COCO val 2017 image dataset to measure the bias metrics, Bias@K and MaxSkew@K. 
 
