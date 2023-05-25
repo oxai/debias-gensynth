@@ -17,7 +17,7 @@ The authors of this project include:
 For any inquiries or further information, please contact our corresponding authors, Brandon Smith, <brandonsmithpmpuk@gmail.com>, or Miguel Farinha, <miguelffarinha@gmail.com>.
 
 ## Paper
-Details of our paper can be found in the [link here]().
+Details of our paper can be found in the [link here](https://arxiv.org/abs/2305.15407).
 
 ### Requirements
 
@@ -102,15 +102,27 @@ The `--dataset` option contains two options:
     ```
 
     This will extract all the files into a new `data_gensynth` directory in your current location.
+
 ## License
-This project is licensed under the [MIT License](). Please see the `LICENSE` file for more information.
+This project is licensed under the MIT License. Please see the [LICENSE](https://github.com/oxai/debias-gensynth/blob/main/LICENSE) file for more information.
 
 ## Acknowledgements
 We wish to acknowledge the support and contributions of everyone who made this project possible.
 
-Miguel Farinha acknowledges the support of Fundação para a Ciência e Tecnologia (FCT), through the Ph.D. grant 2022.12484.BD. Aleksandar Shtedritski acknowledges the support of EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines & Systems [EP/S024050/1]. Hannah Rose Kirk acknowledge the support of the Economic and Social Research Council Grant for Digital Social Science [ES/P000649/1]
+Miguel Farinha acknowledges the support of Fundação para a Ciência e Tecnologia (FCT), through the Ph.D. grant 2022.12484.BD. Aleksandar Shtedritski acknowledges the support of EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines & Systems [EP/S024050/1]. Hannah Rose Kirk acknowledges the support of the Economic and Social Research Council Grant for Digital Social Science [ES/P000649/1].
 
 This work has been supported by the Oxford Artificial Intelligence student society. For computing resources, the authors are grateful for support from Google Cloud and the CURe Programme under Google Brain Research, as well as an AWS Responsible AI Grant.
 
 ## Citation
-We are in the process of submitting the paper to arXiv and will update when done.
+
+```
+@misc{smith2023balancing,
+      title={Balancing the Picture: Debiasing Vision-Language Datasets with Synthetic Contrast Sets},
+      author={Brandon Smith and Miguel Farinha and Siobhan Mackenzie Hall and Hannah Rose Kirk and Aleksandar Shtedritski and Max Bain},
+      year={2023},
+      eprint={2305.15407},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
